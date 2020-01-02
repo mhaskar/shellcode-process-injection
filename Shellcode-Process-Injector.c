@@ -36,8 +36,8 @@ int main(int argc, char **argv){
 
 	HANDLE process_handle;
 	DWORD pointer_after_allocated;
+  
   // open the process and save the handle
-
 	process_handle =  OpenProcess(PROCESS_ALL_ACCESS, FALSE, process_id);
 	if (process_handle==NULL)
 {
